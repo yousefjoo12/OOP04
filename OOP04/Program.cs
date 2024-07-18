@@ -237,12 +237,12 @@ namespace OOP04
 			#endregion
 			#region assignment
 			ICircle circle = new Circle();
-			circle.Radius = 5.0;
+			circle.Radius = 4;
 			circle.DisplayShapeInfo();
 
 			IRectangle rectangle = new Rectangle();
-			rectangle.Length = 4.0;
-			rectangle.Width = 6.0;
+			rectangle.Length = 4;
+			rectangle.Width = 7;
 			rectangle.DisplayShapeInfo();
 			#endregion
 		}
